@@ -1,0 +1,44 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+}
+
+.div{
+  position: fixed;
+  width: 100px;
+  height: 100px;
+}
+
+.div-1{
+  top: 0;
+  left: 0;
+
+  background-color: blue;
+}
+
+.div-2{
+  top: 0;
+  right: 0;
+
+  background-color: yellow;
+}
+
+.div-3{
+  bottom: 0;
+  left: 0;
+
+  background-color: greenyellow;
+}
+
+.div-4{
+  bottom: 0;
+  right: 0;
+
+  background-color: red;
+}
